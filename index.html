@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JG Electrical | Taupō</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10; /* Deep black to match logo background */
+            --card-bg: #11141c; /* Dark charcoal for subtle contrast */
+            --accent-color: #e5a913; /* Exact golden-yellow from lightning bolt */
+            --text-main: #ffffff; /* Sharp white to match the "JG" */
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Arial Black", "Arial", sans-serif; /* Wide, impactful font style */
+            letter-spacing: 0.5px;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            border: 1px solid rgba(229, 169, 19, 0.15); /* Subtle gold border glow */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .tagline {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .services-list {
+            list-style: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .services-list li {
+            margin-bottom: 15px;
+            padding-left: 28px;
+            position: relative;
+            color: var(--text-main);
+            font-size: 1.05rem;
+        }
+
+        .services-list li::before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .services-list strong {
+            color: var(--accent-color);
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            font-family: "Arial Black", sans-serif;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            background: var(--accent-color);
+            color: #000000;
+            text-align: center;
+            padding: 16px;
+            border-radius: 6px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            margin-bottom: 15px;
+            transition: transform 0.1s, background-color 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.01);
+            background-color: #f1b61c;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-main);
+            border: 2px solid rgba(255,255,255,0.2);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-weight: 600;
+            text-transform: none;
+            letter-spacing: 0px;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            background: transparent;
+        }
+
+        .footer-text {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <!-- You can upload your logo.png file directly into Carrd right above this embed block -->
+        <p class="tagline">Commercial & Residential Electrical | Taupō</p>
+    </header>
+
+    <div class="section">
+        <h2>Scope of Work</h2>
+        <ul class="services-list">
+            <li><strong>Solar Installations</strong>Grid-tied systems and efficient solar power setups.</li>
+            <li><strong>New Builds & Renovations</strong>Complete house wiring, switchboard upgrades, and architectural lighting.</li>
+            <li><strong>Air Conditioning & Heat Pumps</strong>Expert climate control installations for year-round comfort.</li>
+            <li><strong>Underground Services</strong>Safe, compliant trenching, mains cabling, and power routing.</li>
+            <li><strong>Commercial Projects</strong>Targeted commercial installations and scheduled maintenance within project limits.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Get a Quote</h2>
+        <p style="margin-bottom: 25px; color: var(--text-muted); font-family: -apple-system, sans-serif;">Reach out directly for project availability, scheduling, or pricing inquiries.</p>
+        
+        <a href="tel:02102818368" class="btn">📱 Call 021 028 18368</a>
+        <a href="mailto:guiljesse@gmail.com?subject=JG%20Electrical%20Inquiry" class="btn btn-secondary">✉️ Email: guiljesse@gmail.com</a>
+        <a href="https://www.facebook.com/TowpawElectrical/" target="_blank" class="btn btn-secondary">👍 View Recent Projects on Facebook</a>
+    </div>
+
+    <p class="footer-text">Efficient • Compliant • Safe</p>
+</div>
+
+</body>
+</html>
